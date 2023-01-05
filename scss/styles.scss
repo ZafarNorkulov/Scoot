@@ -283,6 +283,31 @@ nav {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+
+        a {
+            background: $grey;
+            padding: .5rem 1rem;
+            text-decoration: none;
+            color: $dark;
+            display: flex;
+            align-items: center;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+        }
+
+        img {
+            padding-right: 10px;
+        }
+
+        span {
+            font-family: "Space Mono";
+            font-size: 12px;
+            font-weight: 700;
+
+        }
     }
 }
 
@@ -403,14 +428,17 @@ footer {
         &__arrow {
             display: none;
         }
-        &__text{
+
+        &__text {
             z-index: 2;
         }
+
         p {
             max-width: 90%;
             padding: 2rem;
         }
-        button{
+
+        button {
             margin-bottom: 25%;
         }
     }
@@ -561,6 +589,14 @@ footer {
         h2 {
             font-size: 2rem;
         }
+            h4{
+                font-size: 1rem;
+            }
+            span{
+                max-width: 60px;
+                font-size: 8px!important;
+            }
+        
     }
 
     footer {
